@@ -1,37 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register & Login</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <div class="main">
-    <input type="checkbox" id="check" aria-hidden="true">
-
-    <!-- Register Form -->
-    <div class="register">
-      <form id="registerForm">
-        <label for="check" aria-hidden="true">Register</label>
-        <input type="text" name="name" placeholder="Enter your name" autocomplete="off" required>
-        <input type="email" name="email" placeholder="Enter your email" autocomplete="off" required>
-        <input type="password" name="password" placeholder="Enter your password" autocomplete="off" required>
-        <input type="password" name="confirmPassword" placeholder="Confirm your password" autocomplete="off" required>
-        <button type="submit">Register</button>
-      </form>
-    </div>
-
-    <!-- Login Form -->
-    <div class="login">
-      <form id="loginForm">
-        <label for="check" aria-hidden="true">Login</label>
-        <input type="email" name="email" placeholder="Enter your email" autocomplete="off" required>
-        <input type="password" name="password" placeholder="Enter your password" autocomplete="off" required>
-        <button type="submit">Login</button>
-      </form>
-    </div>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login-form</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
